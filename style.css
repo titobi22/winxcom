@@ -1,108 +1,115 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.header{
-    background-color: white; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 15vh;
-
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
 }
-.logo{
-    color:rgb(0, 119, 255);
-    
+.logo {
+  color: rgb(0, 119, 255);
+  padding-left: 5px;
 }
-.listing{
-list-style: none;
-display: flex;
-justify-content: center;
-color: rgb(41, 94, 94);
+.listing {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: rgb(41, 94, 94);
 }
-.services{
-  margin: 15px;  
+.services {
+  margin: 15px;
 }
-.How{
-    margin: 15px;
+.How {
+  margin: 15px;
 }
-.About{
-    margin: 15px;
+.About {
+  margin: 15px;
 }
-.contact{
-    margin: 15px;
+.contact {
+  margin: 15px;
 }
-.buttonS{
-    color: rgb(0, 119, 255);
-    background-color: white;
-    height: 7vh;
-    width: 13vh;
-    border-color: rgb(0, 119, 255);
-    border-radius: 7px;
-    font-size: 15px;
+.buttonS {
+  color: rgb(0, 119, 255);
+  background-color: white;
+  height: 7vh;
+  width: 13vh;
+  border-color: rgb(0, 119, 255);
+  border-radius: 7px;
+  font-size: 15px;
 }
-.buttonG{
-    color: white;
-    background-color: rgb(0, 119, 255);
-    height: 7vh;
-    width: 15vh;
-    border-color: rgb(0, 119, 255);
-    border-radius: 7px;
-    font-size: 15px;
+.buttonG {
+  color: white;
+  background-color: rgb(0, 119, 255);
+  height: 7vh;
+  width: 15vh;
+  border-color: rgb(0, 119, 255);
+  border-radius: 7px;
+  font-size: 15px;
 }
-.button-prt{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 8px;
-    gap: 10px;
+.button-prt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 8px;
+  gap: 10px;
 }
-.section1{
-    background-color: #c3d8d7;
-    height: 60vh;
-    justify-items: center;
+.section1 {
+  background-color: #c3d8d7;
+  height: 80vh;
+  justify-items: center;
 }
-.starT{
-    display: flex;
-    gap: 10px;
-    padding-top: 60px;
+.starT {
+  display: flex;
+  gap: 10px;
+  padding-top: 60px;
 }
-.bi{
- color: rgb(0, 119, 255);
+.bi {
+  color: rgb(0, 119, 255);
 }
-.trust{
-    color: blue;
-    font-size: 15px;
+.trust {
+  color: blue;
+  font-size: 15px;
 }
-.find{
-    font-size: 60px;
+.find {
+  font-size: 60px;
 }
-.Provider{
-    font-size: 63px;
-    color: rgb(0, 51, 128);
+.Provider {
+  font-size: 63px;
+  color: rgb(0, 51, 128);
 }
-.connect{
-    font-size: 20px;
-    justify-content: center;
-    text-align: center;
-    color: grey;
+.connect {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  color: grey;
 }
-.buttonF{
-    color: white;
-    background-color: blue;
-    height: 7vh;
-    width: 40vh;
-    font-size: 18px;
-    border-color: blue;
-    border-radius: 5px;
+.buttonF {
+  color: white;
+  background: linear-gradient(90deg, blue, indigo);
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
 }
-.buttonB{
-    color: black;
-    background-color: white;
-    height:7vh ;
-    width: 40vh;
-    font-size: 18px;
-    border-radius: 5px;
-    border-color: white;
+.buttonF:hover {
+  background: linear-gradient(90deg, indigo, blue);
+}
+.buttonB {
+  color: black;
+  background-color: white;
+  height: 7vh;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: white;
+}
+.starter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 40px;
 }
