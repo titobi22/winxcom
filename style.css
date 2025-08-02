@@ -59,7 +59,7 @@
 }
 .section1 {
   background-color: #c3d8d7;
-  height: 80vh;
+  height: 85vh;
   justify-items: center;
 }
 .starT {
@@ -67,7 +67,7 @@
   gap: 10px;
   padding-top: 60px;
 }
-.bi {
+.icon-1 {
   color: rgb(0, 119, 255);
 }
 .trust {
@@ -112,4 +112,302 @@
   align-items: center;
   gap: 15px;
   padding-top: 40px;
+  margin-bottom: 30px;
+}
+.member {
+  display: flex;
+  gap: 20px;
+}
+.people-icon {
+  color: rgb(0, 119, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.Active {
+  font-size: small;
+  color: grey;
+}
+.user {
+  font-size: 20px;
+}
+.Rating {
+  font-size: 20px;
+}
+.Avg {
+  font-size: 13px;
+  color: grey;
+}
+.icon-2 {
+  color: green;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.icon-2-container {
+  background-color: rgb(183, 241, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 50px;
+  width: 30px;
+}
+.geo-icon {
+  font-size: 22px;
+  color: rgb(132, 0, 255);
+  font-weight: bolder;
+}
+.no1 {
+  font-size: 20px;
+}
+.cities {
+  font-size: 13px;
+  color: gray;
+}
+.section2 {
+  background-color: white;
+  align-items: center;
+  height: 90vh;
+  padding-inline: 50px;
+}
+.browse {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+}
+.discover {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.box-wrapper-1 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box1:hover {
+  scale: 1.1;
+}
+.home-icon {
+  color: blue;
+  font-size: 25px;
+}
+.icon-wrapper {
+  background-color: rgb(140, 230, 233);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p1 {
+  color: gray;
+  margin-top: 15px;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box2:hover {
+  scale: 1.1;
+}
+.truck-icon {
+  color: green;
+  font-size: 25px;
+}
+.truck-wrapper {
+  background-color: rgb(213, 247, 213);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p2 {
+  color: gray;
+  margin-top: 15px;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box3:hover {
+  scale: 1.1;
+}
+.scissor {
+  color: rgb(236, 1, 165);
+  font-size: 25px;
+}
+.scissor-wrapper {
+  background-color: rgb(248, 208, 215);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p3 {
+  color: gray;
+  margin-top: 15px;
+}
+.box-wrapper-2{
+   display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.box4{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box4:hover{
+  scale: 1.1;
+}
+.wrench-icon{
+  color:rgb(255, 119, 0);
+  font-size: 25px;
+}
+.handy-wrapper{
+  background-color:peachpuff;
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p4{
+  color: gray;
+  margin-top: 15px;
+}
+.box5{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box5:hover{
+  scale: 1.1;
+}
+.camera-icon{
+  color:blueviolet;
+  font-size: 25px;
+}
+.camera-wrapper{
+  background-color: rgb(219, 206, 231);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p5{
+  color: gray;
+  margin-top: 15px;
+}
+.box6{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box6:hover{
+  scale: 1.1;
+}
+.education{
+  color:blue;
+  font-size: 25px;
+}
+.education-wrapper{
+  background-color: rgb(145, 145, 255);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p6{
+  color: gray;
+  margin-top: 15px;
+}
+.box-wrapper-3{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.box7{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+  height: 80px;
+  margin-top: 70px;
+  gap: 20px;
+  transition: ease-in-out;
+  box-shadow: 5px 5px 5px gray;
+}
+.box7:hover{
+  scale: 1.1;
+}
+.heart-icon{
+  color:red;
+  font-size: 25px;
+}
+.health-wrapper{
+  background-color: rgb(247, 163, 163);
+  border-radius: 5px;
+  width: 35px;
+  padding: 5px;
+}
+.p7{
+  color: gray;
+  margin-top: 15px;
 }
